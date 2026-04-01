@@ -1,0 +1,31 @@
+# Stress Test Application (Docker + Python)
+
+## Overview
+This project is a simple stress testing application built using Python and Docker.
+
+## Features
+- Simulates CPU load
+- Runs inside Docker container
+- Easy to start and stop
+
+## Technologies Used
+- Python
+- Docker
+
+## How to Run
+
+### Build Docker Image
+docker build -t stress-app .
+
+### Run Container
+docker run stress-app
+
+### Run in Background
+docker run -d stress-app
+
+### Stop Container
+docker ps
+docker stop <container_id>
+
+## Author
+Adnan Fazal
